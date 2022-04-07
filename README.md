@@ -1,4 +1,3 @@
-# project
 
 # Hosting a Full-Stack Application
 
