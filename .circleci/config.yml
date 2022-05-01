@@ -5,8 +5,7 @@ orbs:
   eb: circleci/aws-elastic-beanstalk@2.0.1
 jobs:
   build:
-      - build:
-          filters:
+    filters:
             branches:
               only: master
       - image: "cimg/base:stable"
