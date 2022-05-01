@@ -5,7 +5,7 @@ orbs:
   eb: circleci/aws-elastic-beanstalk@2.0.1
 jobs:
   build:
-         - build:
+      - build:
           filters:
             branches:
               only: master
