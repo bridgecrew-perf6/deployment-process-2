@@ -6,7 +6,7 @@ orbs:
       - build:
           filters:
             branches:
-              only: master
+            only: master
       - image: "cimg/base:stable"
     steps:
       - node/install
