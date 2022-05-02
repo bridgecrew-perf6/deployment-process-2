@@ -3,7 +3,7 @@ branch-defaults:
     environment: udagramapi-env-1
   artifact: www/Archive.zip
   deploy: null
-  environment-defaults: null
+  environment-defaults: udagramapi-env-1
   udagramapi-env-1:
     branch: null
     repository: null
