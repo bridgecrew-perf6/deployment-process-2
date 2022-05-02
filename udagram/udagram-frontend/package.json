@@ -6,6 +6,7 @@
   "scripts": {
     "ng": "ng",
     "start": "react-scripts --openssl-legacy-provider start",
+    "deploy": "chmod +x ./bin/deploy.sh && ./bin/deploy.sh",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
