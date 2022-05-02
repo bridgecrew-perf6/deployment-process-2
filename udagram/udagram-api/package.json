@@ -10,7 +10,7 @@
     "prod": "tsc && node ./www/server.js",
     "clean": "rm -rf www/ || true",
     "build": "npm run clean && tsc && cp -rf src/config www/config && cp .npmrc www/.npmrc && cp package.json www/package.json && cd www && zip -r Archive.zip . && cd ..",
-    "deploy": "eb deploy",
+    "deploy": "eb use udagramapi-env-1",
     "zip": "cd www && zip -r Archive.zip . && cd .."
   },
   "author": "Gabriel Ruttner",
