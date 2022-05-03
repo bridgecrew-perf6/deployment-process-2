@@ -8,6 +8,6 @@
         "backend:test": "cd udagram/udagram-api && npm run test",
         "backend:zip": "cd udagram/udagram-api && npm run zip",
         "frontend:deploy": "cd udagram/udagram-frontend && npm run deploy",
-        "backend:deploy": "cd udagram/udagram-api && eb deploy"
+        "backend:deploy": "cd udagram/udagram-api && eb deploy Udagramapi-env-1"
     }
 }
