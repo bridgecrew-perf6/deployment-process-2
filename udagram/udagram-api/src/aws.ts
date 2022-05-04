@@ -2,8 +2,11 @@ import AWS = require("aws-sdk");
 import { config } from "./config/config";
 
 // Configure AWS
-const credentials = new AWS.SharedIniFileCredentials({ profile: "postgres" });
-AWS.config.credentials = credentials;
+const credentials = new AWS.Credentials({
+  accessKeyId: config.aws_access_key,
+  secretAccessKey: config.aws_secret,
+});
+
 
 export const s3 = new AWS.S3({
   signatureVersion: "v4",
