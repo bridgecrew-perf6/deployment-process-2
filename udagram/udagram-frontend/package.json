@@ -6,7 +6,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "deploy": "aws s3 cp --recursive --acl public-read ./www s3://deploymentudacity/",
+    "deploy": "aws s3 cp --recursive --acl public-read ./www s3://newbucketdeployment/",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
